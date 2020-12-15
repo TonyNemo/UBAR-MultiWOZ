@@ -85,7 +85,7 @@ class _Config:
         self.model_output = 'model_output_e2e_FFFT_fix_bs.json'
         self.eval_per_domain = False
 
-        ### my setting
+        ### generation setting
         self.use_true_prev_bspn = True
         self.use_true_prev_aspn = True
         self.use_true_db_pointer = False
@@ -101,9 +101,10 @@ class _Config:
         self.low_resource = False
         ###
         
-        ## lyh setting
+        ## dst setting
         self.fix_bs = True
         self.use_nodelex_resp = True
+        self.max_context_length = 900
         ##
 
         self.use_true_bspn_for_ctr_eval = True        
