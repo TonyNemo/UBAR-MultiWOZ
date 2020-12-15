@@ -84,6 +84,7 @@ class _Config:
         ## dst setting
         self.fix_bs = True
         self.use_nodelex_resp = True
+        self.max_context_length = 900
         ##
 
         # model settings
