@@ -77,6 +77,7 @@ def clean_slot_values(domain, slot, value):
         value = ''
     elif value == 'not mentioned':
         value = ''
+        # value = 'not mentioned' # if in DST setting
     elif domain == 'attraction':
         if slot == 'name':
             if value == 't':
