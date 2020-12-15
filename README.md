@@ -83,7 +83,7 @@ python train.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=False us
 ### Dialog State Tracking
 ```
 path='YOUR_EXPERIMENT_PATH'
-python train_DST.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=False use_true_prev_aspn=True use_true_pv_resp=True use_true_db_pointer=False
+python train_DST.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=False use_true_prev_aspn=True use_true_prev_resp=True use_true_db_pointer=False
 ```
 
 
