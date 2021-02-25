@@ -107,8 +107,8 @@ class _Config:
         self.enable_dspn = False # removed
         self.enable_dst = False
 
-        self.use_true_bspn_for_ctr_eval = True        
-        self.use_true_domain_for_ctr_eval = True
+        self.use_true_bspn_for_ctr_eval = False        
+        self.use_true_domain_for_ctr_eval = False
         self.limit_bspn_vocab = False
         self.limit_aspn_vocab = False
         self.same_eval_as_cambridge = True
