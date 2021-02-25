@@ -95,7 +95,7 @@ python train_DST.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=Fals
 - use_true_curr_bspn: use the ground truth current turn's belief span.
 - use_true_curr_aspn: use the ground truth current turn's belief span.
 - use_all_previous_context: use all previous turns as context. 
-
+- use_true_bspn_for_ctr_eval: use the ground truth belief span to query DB results.
 
 
 
