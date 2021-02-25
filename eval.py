@@ -568,10 +568,7 @@ class MultiWozEvaluator(object):
                 if '[value_name]' in sent_t or '[value_id]' in sent_t:
                     if domain in ['restaurant', 'hotel', 'attraction', 'train']:
                         # HERE YOU CAN PUT YOUR BELIEF STATE ESTIMATION
-                        # if cfg.enable_bspn and not cfg.use_true_bspn_for_ctr_eval and \
-                        #    (cfg.bspn_mode == 'bspn' or cfg.enable_dst):
-                        # if True:
-                        if not cfg.use_true_curr_bspn:
+                        if not cfg.use_true_curr_bspn and not cfg.use_true_bspn_for_ctr_eval:
                             bspn = turn['bspn_gen']
                         else:
                             bspn = turn['bspn']
