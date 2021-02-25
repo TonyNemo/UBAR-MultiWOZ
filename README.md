@@ -79,6 +79,7 @@ python train.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=True use
 path='YOUR_EXPERIMENT_PATH'
 python train.py -mode test -cfg eval_load_path=$path use_true_prev_bspn=False use_true_prev_aspn=False use_true_db_pointer=False use_true_prev_resp=False use_true_curr_bspn=False use_true_curr_aspn=False use_all_previous_context=True cuda_device=0
 ```
+Important note: To fairly compare with other methods in the end-to-end setting, the groundtruth belief states are used to query for DB results. To use generated belief states, set use_true_bspn_for_ctr_eval to False.
 
 ### Dialog State Tracking
 ```
