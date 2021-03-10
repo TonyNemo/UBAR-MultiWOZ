@@ -20,6 +20,7 @@ level.
 
 We also provide technical appendix in ```Appendix.pdf```.
 ## Requirements
+- CUDA 10.1
 - Python 3.6
 - PyTorch 1.5
 - spaCy
